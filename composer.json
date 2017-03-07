@@ -1,5 +1,5 @@
 {
-    "name": "jms/serializer-bundle",
+    "name": "alexmanno/serializer-bundle",
     "type": "symfony-bundle",
     "description": "Allows you to easily serialize, and deserialize data of any complexity",
     "keywords": ["serialization", "deserialization", "json", "jaxb", "xml"],
@@ -11,9 +11,15 @@
             "email": "schmittjoh@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alexmanno/serializer"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "jms/serializer": "^1.5",
+        "alexmanno/serializer": "dev-arrayfix",
         "phpoption/phpoption": "^1.1.0",
         "symfony/framework-bundle": "~2.3|~3.0"
     },

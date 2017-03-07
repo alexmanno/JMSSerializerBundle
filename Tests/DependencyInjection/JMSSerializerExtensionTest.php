@@ -161,7 +161,7 @@ class JMSSerializerExtensionTest extends \PHPUnit_Framework_TestCase
         $object = new ObjectUsingExpressionLanguage('foo', true);
         $this->assertEquals('{"name":"foo"}', $serializer->serialize($object, 'json'));
         $object = new ObjectUsingExpressionLanguage('foo', false);
-        $this->assertEquals('{}', $serializer->serialize($object, 'json'));
+        $this->assertEquals('[]', $serializer->serialize($object, 'json'));
     }
 
     /**
