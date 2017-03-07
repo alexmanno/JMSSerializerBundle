@@ -11,15 +11,9 @@
             "email": "schmittjoh@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/alexmanno/serializer"
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
-        "alexmanno/serializer": "dev-arrayfix",
+        "alexmanno/serializer": "^1.6",
         "phpoption/phpoption": "^1.1.0",
         "symfony/framework-bundle": "~2.3|~3.0"
     },
